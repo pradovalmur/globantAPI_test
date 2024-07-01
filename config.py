@@ -1,5 +1,5 @@
 class Config:
-    DB_NAME = 'globant'
+    DB_NAME = 'human_resources'
     DB_USER = 'prado'
     DB_PASSWORD = 'Prado'
     DB_HOST = 'db'
