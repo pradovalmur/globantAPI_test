@@ -1,4 +1,4 @@
-CREATE TABLE departaments(
-    id INTEGER PRIMARY KEY,
-    departament VARCHAR
+CREATE TABLE departments(
+    id NUMERIC PRIMARY KEY,
+    department VARCHAR
 )

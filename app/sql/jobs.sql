@@ -1,4 +1,4 @@
 CREATE TABLE jobs(
-    id INTEGER PRIMARY KEY,
+    id NUMERIC PRIMARY KEY,
     job VARCHAR
 )
