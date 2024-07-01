@@ -24,6 +24,9 @@ def upload_csv():
         df = pd.read_csv(file, header=None)  # Read CSV without headers
         df.columns = headers  # Set the DataFrame headers from config
 
+        # Remover linhas com valores nulos
+        df = df.dropna()  # Remove todas as linhas com qualquer valor nulo
+
         db = Database()
         if not db.check_table_exists(table_name):
             db.create_table_from_sql(table_name)
