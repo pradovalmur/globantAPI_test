@@ -14,7 +14,7 @@ The test consists of two steps:
 
 For the api, I chose to use a Docker solution because it is cloud provider agnostic and can be run on Kubernetes. 
 
-![resources](imagens/globant_diagram.png)
+![resources](images/globant_diagram.png)
 
 ### the main points to note are:
 
@@ -22,7 +22,7 @@ For the api, I chose to use a Docker solution because it is cloud provider agnos
 
 - If there are new files, just create the SQL in the app/sql file, and the table will be created when the file is first invoked. 
 
-![Table Schema](imagens/globant_diagram_docker.png)
+![Table Schema](images/globant_diagram_docker.png)
 
 ### API tests using Postman
 
