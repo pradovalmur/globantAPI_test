@@ -1,5 +1,5 @@
 from flask import Flask
-
+from .db import Database
 from app.api import api_blueprint
 
 def create_app():
