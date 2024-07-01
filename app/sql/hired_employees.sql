@@ -1,7 +1,7 @@
 create table hired_employees(
-    id INTEGER PRIMARY KEY,
+    id NUMERIC PRIMARY KEY,
     name VARCHAR,
     datetime VARCHAR,
-    depatament_id INTEGER,
-    job_id INTEGER
+    department_id NUMERIC,
+    job_id NUMERIC
 )
