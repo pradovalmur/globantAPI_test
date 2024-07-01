@@ -14,7 +14,7 @@ services:
   db:
     image: postgres:13
     environment:
-      POSTGRES_DB: globant
+      POSTGRES_DB: human_resources
       POSTGRES_USER: prado
       POSTGRES_PASSWORD: Prado
     ports:
